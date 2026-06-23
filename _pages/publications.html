@@ -5,32 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="archive__item">
+  <h2>Travail d'Étude et de Recherche - Master 1</h2>
+  <p><strong>La norme de Thurston sur l'homologie des variétés de dimension 3</strong><br>
+  <em>Sous la direction de M. Bram Petri — Mai 2026</em></p>
+  
+  <p>Ce projet d'étude porte sur les propriétés de la norme de Thurston définie sur l'espace d'homologie \(H_2(\,M; \mathbb{R}\,)\) d'une \(3\)-variété \(M\) compacte et orientée. Il explore la structure géométrique de sa boule unité, avec pour fil conducteur les théorèmes 1, 2 et 3 de l'article <em>A norm for the homology of \(3-\)manifolds</em> de William P. Thurston.</p>
+  
+  <ul>
+    <li><a href="/assets/TER_Thurston_Norm.pdf" target="_blank"><strong>Télécharger le rapport (PDF)</strong></a></li>
+    <li><a href="/assets/TER_Source.zip"><strong>Télécharger le code source LaTeX (.zip)</strong></a></li>
+  </ul>
+</div>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<hr />
