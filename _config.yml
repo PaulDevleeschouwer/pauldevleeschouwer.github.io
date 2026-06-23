@@ -23,7 +23,7 @@ repository               : "PaulDevleeschouwer/pauldevleeschouwer.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.jpeg"
+  avatar           : "images/profile.png/"
   name             : "Paul Devleeschouwer"
   pronouns         : # example: "she/her"  
   bio              : "Master 1 Mathematics student"
