@@ -28,20 +28,20 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
-# Math typesetting (Pour le rendu de vos formules LaTeX sur le site)
+# Math typesetting
 mathjax: true
 
-# Collections settings (Pour vos articles, enseignements, etc.)
+# Collections settings
 collections:
   publications:
     output: true
-    permalink: /publications/:path/
+    permalink: /publications/
   teaching:
     output: true
-    permalink: /teaching/:path/
+    permalink: /teaching/
   talks:
     output: true
-    permalink: /talks/:path/
+    permalink: /talks/
 
 # Defaults
 defaults:
