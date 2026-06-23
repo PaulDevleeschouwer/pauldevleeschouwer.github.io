@@ -9,11 +9,11 @@ I am a Master's student in Mathematics specializing in **Mathematics and applica
 This website is built using Jekyll and the *Academic Pages* template. The key elements included are:
 * `_config.yml`: Core configuration and sidebar profile information.
 * `_pages/`: Source files for individual site sections (Home, Publications, Teaching, etc.).
-* `assets/`: Storage for media, academic papers, and source files.
+* `files/`: Storage academic papers, and source files.
 
 ## Featured Works
 * **M1 Research Project (FR):** *La norme de Thurston sur l'homologie des 3-variétés* (Supervised by M. Bram Petri, May 2026).
-    * The final compiled PDF report, slides and full LaTeX source code bundle are hosted directly under the `assets/` directory.
+    * This project is written in French. The final compiled PDF report, slides and full LaTeX source code bundle are hosted directly under the `assets/` directory.
 
 ## Licensing
 The content of this website is open-source. Feel free to clone or fork this repository to build your own academic portfolio.
