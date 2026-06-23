@@ -24,7 +24,7 @@
     {
       "institution": "Sorbonne University",
       "area": "M.S. in Mathematics",
-      "studyType": "",
+      "studyType": "Master",
       "startDate": "2025",
       "endDate": "2026",
       "gpa": null,
@@ -42,7 +42,7 @@
     {
       "institution": "Université Grenoble Alpes",
       "area": "B.S. in Mathematics",
-      "studyType": "",
+      "studyType": "Bachelor",
       "startDate": "2024",
       "endDate": "2025",
       "gpa": null,
@@ -57,8 +57,8 @@
     },
     {
       "institution": "Lycée Champollion",
-      "area": "Proparatory classes in Mathematics and Physics (MPSI and MP-ET)",
-      "studyType": "",
+      "area": "Preparatory classes in Mathematics and Physics (MPSI and MP-ET)",
+      "studyType": "CPGE",
       "startDate": "2022",
       "endDate": "2024",
       "gpa": null,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Mathematics & Research",
-      "level": "Enthusiast",
+      "level": "Advanced",
       "keywords": [
         "Algebraic Topology (3-Manifolds, Thurston Norm)",
         "Commutative Algebra",
@@ -100,11 +100,11 @@
   "languages": [
     {
       "language": "French",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Academic working proficiency"
+      "fluency": "Professional"
     }
   ]
 }
