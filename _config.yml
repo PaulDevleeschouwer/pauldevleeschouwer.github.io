@@ -23,7 +23,7 @@ repository               : "academicpages/pauldevleeschouwer.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "assets/profile_picture.jpeg"
   name             : "Paul Devleeschouwer"
   pronouns         : # example: "she/her"  
   bio              : "I'm currently a student at Sorbonne University, in Master 1 Mathématiques et applications. This website contains so far my TER (the Master 1's research project)."
