@@ -32,7 +32,7 @@
         "Commutative algebra and introduction to algebraic geometry",
         "Algebraic topology",
         "Differential geometry",
-        "Research project : the Thurston norm on the homology of 3-manifolds",
+        "Research project on the Thurston norm for the homology of 3-manifolds",
         "Introduction to categories",
         "Algebraic number theory",
         "Lie groups and Lie algebras",
@@ -70,12 +70,12 @@
     }
   ],
   "skills": [
-    "LaTeX",
-    "Inkscape",
-    "Anki"
+    {"name": "LaTeX"},
+    {"name": "Inkscape"},
+    {"name": "Anki"}
   ],
   "languages": [
-    "French (native)",
-    "English (fluent)"
+    {"name": "French (native)"},
+    {"name": "English (fluent)"}
   ]
 }
