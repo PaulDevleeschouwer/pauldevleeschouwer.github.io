@@ -69,13 +69,45 @@
       ]
     }
   ],
+  {
   "skills": [
-    {"name": "LaTeX"},
-    {"name": "Inkscape"},
-    {"name": "Anki"}
+    {
+      "name": "Scientific Publishing & Graphics",
+      "level": "Advanced",
+      "keywords": [
+        "LaTeX (Beamer, tikz-cd)",
+        "Inkscape (Vector Graphics)"
+      ]
+    },
+    {
+      "name": "Mathematics & Research",
+      "level": "Enthusiast",
+      "keywords": [
+        "Algebraic Topology (3-Manifolds, Thurston Norm)",
+        "Commutative Algebra",
+        "Effective Algebraic Geometry"
+      ]
+    },
+    {
+      "name": "Methodology & Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Anki (Spaced Repetition Systems)",
+        "Git",
+        "GitHub"
+      ]
+    }
   ],
   "languages": [
-    {"name": "French (native)"},
-    {"name": "English (fluent)"}
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Academic working proficiency"
+    }
   ]
+}
+
 }
